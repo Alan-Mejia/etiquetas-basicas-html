@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head charset="UTF-8">
+    <title>Imagenes, tablas y forms</title>
+</head>
+
+<body>
+    <h1>Imagenes, tablas y forms</h1>
+    <h3>IMAGENES</h3>
+    <img
+        src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/rhgy1euflegllrjqhawi" />
+
+
+    <!--alt is used to make a description of the image's content
+
+        title when you put the click on the image, the title should appear
+        
+        width the size in pixels
+        height the size in pixels
+    
+        *NOTE: We are gonna only handle 1 attribute either width or height in order to not deform the image-->
+    <img src="dragonball.jpg" alt="Goku ultra-instict transformation" title="Goku ultra-instict" width="200"
+        height="200" />
+
+    <img src="dragonball.jpg" alt="Goku ultra-instict transformation" title="Goku ultra-instict" width="800" />
+
+    <hr />
+    <table border="1">
+        <tr>
+            <th>Horario</th>
+            <th>Materia</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>09:-10:00</td>
+            <td>Programacion</td>
+            <td>1x3</td>
+        </tr>
+        <tr>
+            <td>10:00-11:00</td>
+            <td>Algoritmos</td>
+            <td>2x3</td>
+        </tr>
+        <tr>
+            <td>11:00-12:00</td>
+            <td>Programacion Orientada</td>
+            <td>3x3</td>
+        </tr>
+        </table>
+        
+        <hr/>
+
+        <table border="1">
+            <tr>
+                <th colspan="6">HORARIO DE CLASE</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+            </tr>
+            <tr>
+                <td>1:00-2:30 pm</td>
+                <td colspan="4">Programacion Orientada a objetos</td>
+                <!--What colspan does is that merge the celds (horizontally) so is not
+                necessary to write the same-->
+
+                <!--<td>Progrmacion Orientada a Objetos</td>
+                <td>Progrmacion Orientada a Objetos</td>
+                <td>Progrmacion Orientada a Objetos</td>-->
+                <td rowspan="2"></td> 
+
+                <!--rowspan does the same like colspan
+                but with rows (vertically)-->
+            </tr>
+            <tr>
+                <td>2:30-4:00 pm</td>
+                <td>Fisica Moderna</td>
+                <td>Fisica Moderna</td>
+                <td>Fisica Moderna</td>
+                <td>Fisica Moderna</td>
+            </tr>
+            <tr>
+                <td>4:00-5:30 pm</td>
+                <td>Teoria de los circuitos</td>
+                <td>Teoria de los circuitos</td>
+                <td>Humanidades III</td>
+                <td>Teoria de los circuitos</td>
+                <td>Teoria de los circuitos</td>
+            </tr>
+            <tr>
+                <td>5:30-7:00 pm</td>
+                <td>Analisis Numerico</td>
+                <td>Economia</td>
+                <td>Analisis Numerico</td>
+                <td>Analisis Numerico</td>
+                <td>Economia</td>
+            </tr>
+            <tr>
+                <td>7:00-8:30 pm</td>
+                <td>Practicas de DAC</td>
+                <td>Practicad de DAC</td>
+                <td>Variable Compleja</td>
+                <td>Variable Compleja</td>
+                <td>Variable Compleja</td>
+            </tr>
+            <tr>
+                <td>8:30-10:00 pm</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Humanidades 3</td>
+            </tr>
+        </table>
+        
+    
+    <hr/>
+    <table border="1">
+        <tr>
+            <td>Rojo</td>
+            <td colspan="2">Verde</td>
+        </tr>
+            <td>Cafe</td>
+            <td>Marron</td>
+            <td>Tinto</td>
+        <tr>
+            <td colspan="3">Naranja</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Blanco</td>
+            <td>Negro</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
